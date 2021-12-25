@@ -32,8 +32,6 @@ const carouselRef = useRef();
      }
    }
 
-   // snap back to beginning of scroll when window is resized
-   // avoids a bug where content is covered up if coming from smaller screen
    useEffect(() => {
      const handleResize = () => {
        scroll(carouselRef.current, 0);
@@ -96,7 +94,6 @@ const carouselRef = useRef();
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
     </Section>
   );
 };

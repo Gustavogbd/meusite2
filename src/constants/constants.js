@@ -3,7 +3,7 @@ export const projects = [
     title: 'Clone Spotify',
     description: "Clone funcional do Spotify com alguns recursos limitados. (Projeto pessoal) ",
     image: '/images/projeto1.png',
-    tags: ['Next.js', 'Tailwind CSS', 'React', 'Spotify API'],
+    tags: ['Next.js', 'React', 'Spotify API'],
     visit: 'https://github.com/Gustavogbd/spotifyClone',
     id: 0,
   },
@@ -12,7 +12,7 @@ export const projects = [
     description:"Clone não funcional da Netflix, feito durante curso de FrontEnd da Digital Innovation.",
     image: '/images/projeto2.png',
     tags: ['HTML', 'CSS' , 'JQuery'],
-    visit: 'https://google.com',
+    visit: 'https://github.com/Gustavogbd/recriando-netflix',
     id: 1,
   },
   {
@@ -34,9 +34,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: 'Lorem ipsum dolor sit amet', },
-  { year: 2019, text: 'Lorem ipsum dolor sit amet', },
-  { year: 2020, text: 'Lorem ipsum dolor sit amet', },
-  { year: 2021, text: 'Lorem ipsum dolor sit amet', },
-  { year: 2022, text: 'Lorem ipsum dolor sit amet', },
+  { year: 2018, text: '...Início dos estudos', },
+  { year: 2019, text: 'Desenvolvimento web como Hobby', },
+  { year: 2020, text: 'Planejamento para mudança de carreira', },
+  { year: 2021, text: 'Foco em cursos complementares na DIO.me', },
+  { year: 2022, text: 'Curso superior e entrada no mercado de trabalho...', },
 ];

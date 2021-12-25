@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiJavascript1, DiReact, DiBootstrap } from 'react-icons/di';
+import { DiJavascript1, DiReact, DiBootstrap, DiGitBranch } from 'react-icons/di';
+import { FaVuejs } from 'react-icons/fa';
 import { LinkContainer, Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,16 +10,14 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      Dedico meu tempo ao aperfeiçoamento das minhas skills nas seguintes Tecnologias: 
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem"/>
         <LinkContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>React.js</ListTitle>
           <ListParagraph>
-            Experiência com <br />
-            React.js
           </ListParagraph>
         </LinkContainer>
       </ListItem>
@@ -26,10 +25,9 @@ const Technologies = () =>  (
       <ListItem>
         <DiJavascript1 size="3rem"/>
         <LinkContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>JavaScript</ListTitle>
           <ListParagraph>
-            Experiência com <br />
-            JavaScript Vanilla
+
           </ListParagraph>
         </LinkContainer>
       </ListItem>
@@ -37,13 +35,33 @@ const Technologies = () =>  (
       <ListItem>
         <DiBootstrap size="3rem"/>
         <LinkContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Bootstrap</ListTitle>
           <ListParagraph>
-            Experiência com <br />
-            Bootstrap
+            
           </ListParagraph>
         </LinkContainer>
       </ListItem>
+
+      <ListItem>
+        <FaVuejs size="3rem"/>
+        <LinkContainer>
+          <ListTitle>VueJs</ListTitle>
+          <ListParagraph>
+            
+          </ListParagraph>
+        </LinkContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiGitBranch size="3rem"/>
+        <LinkContainer>
+          <ListTitle>Git</ListTitle>
+          <ListParagraph>
+            
+          </ListParagraph>
+        </LinkContainer>
+      </ListItem>
+      
     </List>
   </Section>
 );
