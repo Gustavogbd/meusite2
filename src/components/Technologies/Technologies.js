@@ -1,8 +1,8 @@
 import React from 'react';
 import { DiJavascript1, DiReact, DiBootstrap, DiGitBranch } from 'react-icons/di';
-import { FaVuejs } from 'react-icons/fa';
+import { SiTailwindcss } from 'react-icons/si';
 import { LinkContainer, Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -43,16 +43,6 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-        <FaVuejs size="3rem"/>
-        <LinkContainer>
-          <ListTitle>VueJs</ListTitle>
-          <ListParagraph>
-            
-          </ListParagraph>
-        </LinkContainer>
-      </ListItem>
-
-      <ListItem>
         <DiGitBranch size="3rem"/>
         <LinkContainer>
           <ListTitle>Git</ListTitle>
@@ -62,6 +52,15 @@ const Technologies = () =>  (
         </LinkContainer>
       </ListItem>
       
+      <ListItem>
+        <SiTailwindcss size="3rem"/>
+        <LinkContainer>
+          <ListTitle>Tailwind CSS</ListTitle>
+          <ListParagraph>
+            
+          </ListParagraph>
+        </LinkContainer>
+      </ListItem>
     </List>
   </Section>
 );

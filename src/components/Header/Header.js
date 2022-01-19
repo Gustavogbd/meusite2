@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiBrackets } from 'react-icons/di';
-
+import { AiFillCode } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
@@ -10,7 +9,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{display: "flex", alignItems:"center", color:'white', marginBottom: '20px'}}>
-          <DiBrackets size="3.2rem" />
+          <AiFillCode size="3.2rem" style={{marginRight:"10px"}}/>
             <Span>Gustavo</Span>
         </a>
       </Link>
