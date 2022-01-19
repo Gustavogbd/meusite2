@@ -34,9 +34,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: '...Início dos estudos', },
-  { year: 2019, text: 'Desenvolvimento web como Hobby', },
-  { year: 2020, text: 'Planejamento para mudança de carreira', },
-  { year: 2021, text: 'Foco em cursos complementares e projetos pessoais', },
-  { year: 2022, text: 'Início do curso superior e buscando entrada no mercado de trabalho...', },
+  { year: '2018', text: '...Início dos estudos', },
+  { year: '2019', text: 'Desenvolvimento web como Hobby', },
+  { year: '2020', text: 'Planejamento para mudança de carreira', },
+  { year: '2021', text: 'Foco em cursos complementares e projetos pessoais', },
+  { year: '2022', text: 'Início do curso superior e buscando entrada no mercado de trabalho...', },
 ];
